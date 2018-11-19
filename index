@@ -288,7 +288,11 @@ Przekaż lokalny oddział do zdalnego repozytorium (publikuj), ale spraw, aby by
 	<li><a class="links" href="https://git-scm.com/downloads">Git Downloads Page</a></li>
 	<li><a class="links" href="https://git-scm.com/community">Git Community</a></li>
 	</ul>
-
+       <div class="codebox">
+      <code>
+        <font color="red">$</font> Documentation
+      </code>
+      </div
   </div>
 </div>
 </body>
