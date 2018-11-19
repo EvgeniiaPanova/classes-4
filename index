@@ -72,7 +72,7 @@ https://stackoverflow.com/questions/5793214/creating-programming-code-box-on-my-
       and provision of isolated environment for every change to the codebase (this ensures that
       the master branch always contains production-quality code). <br />
       Note that:
-      <div class="codebox">
+      <div class="codebox"> 
       <code>
         <font color="green">$</font> git checkout -b login-system
       </code>
@@ -196,6 +196,9 @@ This shows your other branch. Because it contains work that is NOT merged in yet
       <div class="codebox">
       <code>
         $ git config --global user.name "Bogdan"
+	This means set user name to "Bogdan" .
+	If you don’t use ‘—global’ options, only that repository is set to be valid.
+	
       </code>
       </div> <br />
     </ul>
@@ -206,6 +209,7 @@ This shows your other branch. Because it contains work that is NOT merged in yet
       <div class="codebox">
         <code>
         $  gitk -all
+	This command show all branches and it’s changes
         </code>
       </div> <br /><br />
 </ul>
@@ -237,6 +241,7 @@ This shows your other branch. Because it contains work that is NOT merged in yet
       <div class="codebox">
         <coe>
           $ git reset HEAD
+	  This command returns only the commit that branch points to before.
         </code>
       </div> <br />
     </ul>
@@ -248,6 +253,7 @@ This shows your other branch. Because it contains work that is NOT merged in yet
      <li>git pull "remote" "branch"</li>
 	  Fetch the specified remotes copy of the "branch" and immediately merge it into the local copy.
 		"remote" parameter can be either a URL or name of a remote. <br>
+		git pull is a command to download the contents to the client when someone else has update the code through PR or committed through Github. Git pull “remote” “branch” will copy the contents of “remote” to “branch”.
 		<div class="codebox">
         <code>
           <font color="green">$</font> git pull "remote" "branch"
@@ -256,6 +262,7 @@ This shows your other branch. Because it contains work that is NOT merged in yet
       <li>git branch "branch" "commit hash"
       
       create or delete branch and instantly commits it by hashing</li>
+      create branch by that commit version
 
       <li>git pull "remote" "branch"
       extracts the specified copy of the panels of the elected "branch" and instantly combines it into a local copy. The "remote" repository is the source of the sampling or pushing operation</li>
