@@ -32,7 +32,7 @@ https://stackoverflow.com/questions/5793214/creating-programming-code-box-on-my-
 
     li {
         margin-left: -1em;
-        font-size: 1.1em;
+        font-size: 1.2em;
         font-weight: normal,
         list-style-type: none;
         line-height: 2.5em;
@@ -63,7 +63,7 @@ https://stackoverflow.com/questions/5793214/creating-programming-code-box-on-my-
       $ git checkout -b login-system
       <div class="codebox">
         <code>
-          <font color="green">$</font> git checkout -b login-system
+          <font color="blue">$</font> git checkout -b login-system
         </code>
       </div>
       And then, we are good to go, as every change that we'll make from that point before merging or checking out
